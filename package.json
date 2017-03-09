@@ -1,0 +1,23 @@
+{
+  "name": "moo-server",
+  "version": "1.0.0",
+  "description": "A practice project, that renders random names (Docker style)using cow breeds",
+  "main": "moo-server.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reverendmoog/moo-server.git"
+  },
+  "author": "Richard Whitehead <reverend@moogsoft.com>",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/reverendmoog/moo-server/issues"
+  },
+  "homepage": "https://github.com/reverendmoog/moo-server#readme"
+}
