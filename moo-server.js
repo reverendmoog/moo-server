@@ -8,19 +8,13 @@
 //------------------------------------------------------------------------------
 
 var DEBUG = false ;
-var LOG = "moo-server V1.0.0: ";
+var LOG = "moo-server V1.0.1: ";
 
 // Localisation
 var port = 8084 ;               // Port to listen on
 
-var express = require('express'):
-/*
-    https = require('https'),
-    request = require('sync-request'),
-    sexec = require('sync-exec'),
-    fs = require('fs');
+var express = require('express');
 
-*/
 var app = express();
 
 var mooname = require('./mooname');

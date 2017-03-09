@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nohup node moo-server.js >moo-server.log 2>moo-server-error.log"
   },
   "repository": {
     "type": "git",
